@@ -1,0 +1,155 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =====================
+   LOGIN PAGE STYLING
+===================== */
+.login-body {
+    background-color: #f8f8f8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+}
+
+.login-tabs {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-tabs span {
+    cursor: pointer;
+}
+
+.active-tab {
+    color: black;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.login-btn {
+    background: #444;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* =====================
+   DASHBOARD PAGE STYLING
+===================== */
+.dashboard-body {
+    background: linear-gradient(to bottom, #c2c2c2, #eeeeee);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.header .title h2 {
+    line-height: 1.2;
+}
+
+.search-bar input {
+    width: 220px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: center;
+    background: #d9e2e2;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 60%;
+    padding: 5px;
+}
+
+.top-menu button {
+    margin: 0 10px;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.profile-section {
+    flex: 2;
+}
+
+.chart-box {
+    background: #d3d3d3;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.stats-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stat-card {
+    background: #eaeaea;
+    width: 130px;
+    height: 120px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.percent {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.status-btn {
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 12px;
+    margin-top: 10px;
+}

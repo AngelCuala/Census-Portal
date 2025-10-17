@@ -1,0 +1,85 @@
+.teams-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eaeaea;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.teams-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Search bar */
+.search-bar {
+  flex: 1;
+  max-width: 300px;
+  padding: 6px 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+}
+
+/* Buttons for Add Account / Create Teams */
+.add-btn,
+.create-btn {
+  background-color: #bfbfbf;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Team list cards */
+.team-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.team-card {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.team-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-card li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+/* Employee avatar circles */
+.team-card .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #f2ecec;
+}
+
+/* See more button */
+.see-more {
+  background-color: #6e6a6a;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 6px 0;
+  margin-top: 15px;
+  cursor: pointer;
+}

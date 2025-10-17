@@ -1,0 +1,76 @@
+/* === Location Section === */
+.location-section {
+  margin-top: 30px;
+  margin-bottom: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.location-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.location-header p {
+  margin: 5px 0 15px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.star {
+  color: #888;
+  margin-right: 5px;
+}
+
+.location-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.map-placeholder {
+  background-color: #d3d3d3;
+  border: 2px solid #2196f3;
+  width: 60%;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stat-card {
+  background-color: #d3d3d3;
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+.stat-card.dark {
+  background-color: #999;
+}
+
+.stat-card .percent {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+.stat-card .label {
+  background-color: #555;
+  color: white;
+  border-radius: 0 0 15px 15px;
+  padding: 8px 0;
+  margin: 0;
+}

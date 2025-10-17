@@ -1,0 +1,40 @@
+/* Add Account Form Section */
+.form-container {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 40px 60px;
+  width: 500px;
+  margin: 60px auto;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+.add-btn {
+  background-color: #7b7676;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 50%;
+  margin: 10px auto 0 auto;
+  display: block;
+}
+
+.add-btn:hover {
+  background-color: #5f5a5a;
+}

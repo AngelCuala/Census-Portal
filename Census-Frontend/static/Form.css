@@ -1,0 +1,41 @@
+/* === Forms Section === */
+.forms-section {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 400px;
+}
+
+.forms-empty-text {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.create-form-box {
+  background-color: #d3d3d3;
+  width: 60%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.create-form-box:hover {
+  background-color: #c0c0c0;
+}
+
+.plus-icon {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.create-text {
+  font-size: 16px;
+  color: #000;
+}

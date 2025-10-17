@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Population Census</title>
+  <link rel="stylesheet" href="/static/Template.css">
+  <link rel="stylesheet" href="/static/AddAccounts.css">
+</head>
+<body>
+  <header>
+    <h1>Population<br>Census</h1>
+  </header>
+
+  <main>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="menu-header">
+        <button class="menu-btn">☰</button>
+      </div>
+
+      <ul class="menu">
+                <li><span class="circle"></span> <a href="/templates/Admin/HomepageAdmin.html">Home</a></li>
+        <li><span class="circle"></span> <a href="/templates/Admin/AddTeams.html">Teams</a></li>
+        <li><span class="circle"></span> <a href="/templates/Admin/AddAccounts.html">Add Account</a></li>
+        <li><span class="circle"></span> <a href="/templates/Admin/List.html">List</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="topbar">
+        <div class="top-left"></div>
+
+        <div class="top-right">
+          <div class="user">
+            <span class="avatar"></span>
+            <select>
+              <option>Employee</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add Account Form -->
+      <div class="form-container">
+        <form>
+          <input type="text" placeholder="First Name" required>
+          <input type="text" placeholder="Middle Name" required>
+          <input type="text" placeholder="Last Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="text" placeholder="Barangay" required>
+          <input type="text" placeholder="Position" required>
+          <button type="submit" class="add-btn">Add Account</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

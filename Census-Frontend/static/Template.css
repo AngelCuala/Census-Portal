@@ -1,0 +1,159 @@
+/* Reset + general layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #fffde7, #fff59d);
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  padding: 20px 30px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.3;
+  text-decoration: underline;
+}
+
+/* Layout containers */
+main {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #ffffff;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  list-style: none;
+  padding: 20px 0 0 20px;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #222;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Content Section */
+.content {
+  flex: 1;
+  background: #fdfdfd;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  height: 52px;
+  padding: 15px;
+}
+
+.top-left {
+  width: 60%;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.bell {
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  padding: 6px 10px;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+
+.user select {
+  border: none;
+  background: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 14px;
+}
+
+/* Search section */
+.search-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex: 1;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.search-bar {
+  width: 320px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 14px;
+}
